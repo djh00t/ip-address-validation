@@ -1,0 +1,70 @@
+Address,Comment
+0.0.0.1,reserved
+10.0.0.0,RFC1918 Private network
+10.0.0.1,This is a private IP address that can be used on a local network.
+100.64.0.0,Carrier-grade NAT
+103.244.50.51,Categorised as: IP address possibly from India
+103.25.59.131,public internet IP address
+103.55.27.38,This is a public IP address used by Tencent Cloud.
+104.16.249.5,This is a public IP address used by Cloudflare.
+120.152.150.74,Internet service provider in Australia
+121.11.96.189,Categorised as: IP address possibly from China/Hong Kong/Taiwan
+127.0.0.1,Loopback address
+128.56.28.23,This is a public IP address used by the National Oceanic and Atmospheric Administration.
+13.107.4.50,Microsoft Office 365
+130.0.0.0,IANA reserved for public data networks
+137.117.213.95,Microsoft Azure
+14.102.150.75,public internet IP address
+141.0.0.0,IANA - RESERVED
+151.101.13.69,This is a public IP address used by Fastly.
+154.157.177.136,Categorised as: IP address possibly from Nigeria or South Africa
+161.85.0.0,Hewlett-Packard
+162.159.130.6,This is a public IP address used by Cloudflare.
+165.225.96.26,This is a public IP address used by Microsoft.
+169.253.111.42,used in DHCP Exhaustion Attack
+169.254.0.0,Link-local address
+169.254.0.1,This is an address used by some operating systems when a DHCP server is not available.
+172.16.0.0,RFC1918 Private network
+172.16.0.1,RFC1918 Private network
+172.217.6.68,This is a public IP address used by Google.
+173.203.204.123,A web hosting company Rackspace's US-based dedicated server in Texas
+178.62.132.212,Proxy server in Belarus
+191.255.255.255,reserved for future use
+192.0.0.170,reserved for documentation
+192.0.0.9,reserved for Private Use
+192.0.2.0,RFC5737 TEST-NET-1 documentation network
+192.0.2.1,RFC5737 TEST-NET-1 documentation network
+192.168.0.1,RFC1918 Private network
+192.88.99.0,Used exclusively as IPv6 to IPv4 relay anycast address
+198.18.0.0,Tests of inter-network communications between two separate subnets
+198.19.255.255,documentation
+198.51.100.0,RFC5737 TEST-NET-2 documentation network
+198.51.100.1,RFC5737 TEST-NET-2 documentation network
+202.143.146.144,public internet IP address
+203.0.113.0,RFC5737 TEST-NET-3 documentation network
+203.0.113.0,RFC5737 TEST-NET-3 documentation network
+203.0.113.1,RFC5737 TEST-NET-3 documentation network
+207.142.131.235,Headquarters for H&R Block in Kansas City, United States
+208.37.243.91,The headquarters of McDonald's Corporation in Oak Brook, United States
+216.58.194.174,This is a public IP address used by Google.
+221.121.128.200,public internet IP address
+223.255.255.255,broadcast
+223.255.255.255,Used for broadcasting
+224.0.0.0,Base address for multicast networking
+224.0.0.1,multicast - All Hosts on this Subnet
+233.252.0.0,multicast - RESERVED
+239.192.0.0,multicast - Organization Local Scope
+240.0.0.0,Reserved for future use
+3.123.42.55,This is a public IP address used by Amazon Web Services.
+35.180.0.0,Amazon.com Inc.
+35.196.82.251,This is a public IP address used by Google.
+40.73.132.12,public internet IP address
+41.185.30.21,University of Namibia
+44.128.0.0,AWS Public Subnet
+5.196.84.171,An internet service provider in Romania
+52.49.205.239,This is a public IP address used by Amazon Web Services.
+62.149.128.72,This is a public IP address used by Aruba S.p.A.
+62.205.83.46,Based in Den Haag, Netherlands
+65.120.160.80,Comcast Router IP Address
+81.89.56.102,Server in France
+81.93.148.68,public internet IP address

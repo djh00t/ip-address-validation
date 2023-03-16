@@ -1,0 +1,58 @@
+Address,Comment
+::-1,Invalid character (-) in address
+::/0/0,Multiple slash separators
+::%eth0,Invalid character (%) in address
+::10.0.0.1,IPv4 addresses cannot be represented in IPv6 as individual octets
+::255.255.255.255,IPv4 addresses cannot be represented in IPv6 as individual octets
+::42:192.168.0.1,Mixing IPv4 and IPv6 format
+::ffff:0.0.0.256,Octets should only contain values from 0 to FF (hex) or 0 to 255 (decimal)
+::ffff:127.0.0.1/96,IPv4-compatible address not allowed
+::ffff:192.0.2.128/33,IPv4-mapped address contains invalid prefix length
+::ffff:192.0.2.256,Octets should only contain values from 0 to FF (hex) or 0 to 255 (decimal)
+::ffff:192.168.1.256,Invalid IPv4 address segment (256)
+0:0:0:0:0:0:192.168.0.1,(mixing with IPv4 address but not using the mapped IPv4 format)
+1:2:3:4:5:6:7:8:9,(contains more than eight segments)
+1080:0:0:0:0:0:0:192.88.99,Incomplete final group
+1080:0:0:0:8:800:200C:417,(16-bit value not in four-digit hexadecimal format)
+12ab:34cd::567:89e,Groups consisting of more than 4 characters must be shortened with double colon notation
+2001::0223:dead:beef::1,Double colon can only appear once
+2001::192.168.0.1,Mixing IPv4 and IPv6 format
+2001::dead::beef,Double colon can only appear once
+2001::ff4:2:1:1:1:1:1,Too many groups: maximum of 8 groups allowed
+2001:0DB8:0:CD3,May drop leading zeros, but not trailing zeros, within any 16-bit chunk of the address
+2001:0db8:1234:5678:90AB:CDEF:0012:3456:789a,Too many groups: maximum of 8 groups allowed
+2001:10:240:ab::192.19.24.1,IPv4 address cannot be used in IPv6 address without encapsulation
+2001:cdba:0000:0000:0000:0000:3257:9652%4294967295,Scope-ID should not exceed the maximum value of 2^32-1
+2001:db8:::1:0,(contains multiple consecutive colons)
+2001:db8::1 ::2,Double colon can only appear once
+2001:db8::192.168.0.1,IPv4 address cannot be used in IPv6 address without encapsulation
+2001:db8:/60,Missing groups
+2001:db8:0:0:0:0:0/64,Invalid character (/) in address
+2001:db8:0:0:0:0:f:1g,Invalid character (g) in address
+2001:db8:0:0:0g00:1428:57ab,Contains an invalid hexadecimal digit (g)
+2001:db8:0:000:01:0:0:1,Leading zeroes must be omitted in each group
+2001:db8:0:1:::1,Double colon can only appear once
+2001:db8:0:1::/129,Prefix length must be between 0 and 128
+2001:db8:0:1::1::1,Double colon can only appear once
+2001:db8:0:1::192.0.2.128,IPv4 address cannot be used in IPv6 address without encapsulation
+2001:db8:0:1::a:b:c:d:e:f,Groups consisting of more than 4 characters must be shortened with double colon notation
+2001:db8:0:1:/64,Missing groups
+2001:db8:0:1:1:1:1::1,Double colon can only appear once
+2001:db8:0:1:1:1:1:1:1,Too many groups in address
+2001:db8:0:1:1:1:1:1:1,Too many groups: maximum of 8 groups allowed
+2001:db8:0:1:1:1:1:1#test,Comments are not allowed in the address field
+2001:db8:0:1:1:1:256:1,Octets should only contain values from 0 to FF (hex) or 0 to 255 (decimal)
+2001:db8:0:1g:0:0:0:1,Contains an invalid hexadecimal digit (g)
+2001:db8:aaaa:bbbb:cccc:dddd-eeee:ffff,Invalid format dashes are not allowed. Source reference: "Another example of a valid IPv6 unicast address." This address was provided by OpenAI code-davinci-002 as valid citing Section 4.1.2 of RFC 5952 which does not exist. Moving to invalid unless someone else can cite a valid reference.
+2001:dg8:0:0:0:0:1428:57ab,Contains an invalid hexadecimal digit (g)
+2001:gdba:0000:0000:0000:0000:3257:9652,Contains an invalid hexadecimal digit (g)
+2001:ggg:0:0:0:0:1428:57ab,Contains an invalid hexadecimal digit (g)
+2001.x:0:0:0:0:0:0:1,Contains an invalid hexadecimal digit (x)
+20011:db8:0:1:1:1:1:1,(the first segment has an invalid digit)
+2403:780:f:102:a:a:1:0:0,(contains more than eight segments)
+2403:780:f:102:g:a:1:0,(contains invalid hexadecimal digit ‘g’)
+260.02:00a:b:10:abc:def:123f:2552,(invalid character and wrong format)
+fe80:::1,Too many colons in the address
+fe80::/130,Prefix length must be between 0 and 128
+fe80::7::8,(contains multiple consecutive colons without using the compression notation)
+ff02::c%en0,Scope-ID should be surrounded by square brackets
