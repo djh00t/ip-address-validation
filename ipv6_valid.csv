@@ -18,7 +18,7 @@ Address,Status,Type/Role,Block Owner
 2001:0DB8:aaaa:0007:0000:0000:0000:0001,Valid,Global Unicast,RFC2373
 2001:2::10,Valid,Global Unicast,RFC4291
 2001:44b8:4126:f600:91bd:970c:9073:12df,Valid,Global Unicast,RIPE NCC (Europe) [RFC 4193]
-2001:4860:4860::8888,Valid,Global Unicast,Google, Inc. [RFC 7607]
+2001:4860:4860::8888,Valid,Global Unicast,"Google, Inc. [RFC 7607]"
 2001:500:2d::d,Valid,Anycast,IANA [RFC 7526]
 2001:558:fc03:11:5e63:3eff:fe67:edf9,Valid,Global Unicast,Akamai Technologies, Inc.
 2001:acad:abad:1::bc,Valid,Unique Local Unicast,Private-Use [RFC 4193]
