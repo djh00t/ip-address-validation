@@ -1,91 +1,88 @@
-Address,Comment
-::,Unspecified address
-::1,Loopback address
-::1,the loopback address
-::1,This is the loopback address used to refer to the computer itself.
-::ffff:192.0.2.128,IPv4 mapped address in IPv6
-0:0:0:0:0:0:0:1,the loopback address
-1050:0:0:0:5:600:300c:1,Yet another example of a valid IPv6 address
-2001::1,Loopback address
-2001:0:9D38:953C:10EF:EE22:FFDD:AABB,Valid IPv6 address with 8 blocks
-2001:0DA8:0200:0012:0000:00B8:0000:02AA,Another valid IPv6 address with 8 blocks
-2001:0db8::1,This is an example IPv6 address used for documentation purposes.
-2001:0db8::1:0:0:1, Same IP address, different presentation
-2001:0DB8::4152:EBAF:CE01:0001,Valid IPv6 address abbreviated as :: to condense zeros
-2001:0db8:0:0:1:0:0:1, Same IP address, different presentation
-2001:0DB8:0000:CD30:0000:0000:0000:0000,Valid IPv6 address
-2001:0DB8:1234:5678:ABCD:EF01:2345:6789,Valid IPv6 address in canonical form
-2001:0db8:85a3:0000:0000:8a2e:0370:7334,Fully expanded IPv6 address
-2001:0db8:85a3:08d3:1319:8a2e:0370:7344,This is an example IPv6 address used for documentation purposes.
-2001:0DB8:aaaa:0007:0000:0000:0000:0001,Valid IPv6 address
-2001:2::10,Abbreviated form of a valid IPv6 address omitting leading zeroes from zeros
-2001:44b8:4126:f600:91bd:970c:9073:12df,This is a public IPv6 address used by Akamai Technologies.
-2001:4860:4860::8888,Google Public DNS Server #2
-2001:500:2d::d,This is a public IPv6 address used by Verisign.
-2001:558:fc03:11:5e63:3eff:fe67:edf9,This is a public IPv6 address used by Facebook.
-2001:acad:abad:1::bc,Valid IPv6 address abbreviated as :: to condense zeros
-2001:b50:ffd3:76:ce58:32ff:fe00:e7,Globally Unique IPv6 Unicast Address (GU AEA Type 2001:b50:ffd3::/48)
-2001:db8::0:1:0:0:1, Same IP address, different presentation
-2001:db8::1
-2001:db8::1:0:0:1, Same IP address, different presentation
-2001:db8::212:7403:ace0:1,A valid IPv6 address with four zero blocks (specific networks specified)
-2001:DB8::4:5:6:7,Abbreviated form of a valid IPv6 address
-2001:db8::5,Abbreviated IPv6 address
-2001:DB8::8:800:200C:417A,a unicast address
-2001:db8::aaaa:0:0:1
-2001:db8:0::1
-2001:db8:0:0::1
-2001:db8:0:0:0::1
-2001:db8:0:0:1::1, Same IP address, different presentation
-2001:DB8:0:0:1::1, Same IP address, different presentation
-2001:db8:0:0:1:0:0:1, Same IP address, different presentation
-2001:DB8:0:0:8:800:200C:417A,a unicast address
-2001:db8:0:0:aaaa::1
-2001:db8:0000:0:1::1, Same IP address, different presentation
-2001:db8:3c4d:15::1,Valid compressed IPv6 address
-2001:DB8:85A3::8A2E:370:7334,Another valid IPv6 address with abbreviated form
-2001:db8:aaaa:bbbb:cccc:dddd::1
-2001:db8:aaaa:bbbb:cccc:dddd:0:1
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:0001
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:001
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:01
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:1
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:aaaa
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:AAAA
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:AaAa
-2001:db8:d03:bd70:fede:5c4d:8969:12c4,Valid IPv6 address including full 4-digits for each component, separated by colon
-2002::8364:7777,Another IPv6 address with abbreviated form
-2002:4559:1FE2::4559:1FE2,Valid IPv6 address with embedded IPv4 address
-2002:C000:203:200::,Anycast address, sometimes used for load balancing
-2002:cb0a:3cdd:1:1:1:1:1,Example IPv6 address with an embedded IPv4 address
-2400:8902::f03c:92ff:feb5:f66d,Global Unicast address in IPv6
-2400:c980:0:e206:b07d:8cf9:2b05:fb06,Valid IPv6 address with lowercase alphabetical characters in it
-2400:cb00:2048:1::6814:507,This is a public IPv6 address used by Cloudflare.
-2404:6800:4009:805::2004,Used by Google
-2607:f8b0:4005:80b::200e,This is a public IPv6 address used by Google.
-2607:f8b0:400a:809::200e,Used by Gmail
-2620:0:1cfe:face:b00c::3,This is an IPv6 address used by the US Department of Defense.
-2620:0:2d0:200::7,Used by NASA
-3fff:ffff:3:1:0:0:0:7,Yet another example of a valid multicast address
-ABCD:EF01:2345:6789:ABCD:EF01:2345:6789,Valid IPv6 address in canonical form
-abcd:ef01:2345:6789:abcd:ef01:2345:6789%1,Another example of a link-local unicast address
-fc00::,Unique local address
-fd3b:d101:e37f:9713::1,Unique local address
-fd44:a77b:40ca:db17:37df:f4c4:f38a:fc81,Valid IPv6 Unique Local Address (ULA)
-FD92:7065:891e:8c71:d2e7:d3f3:f595:d7d8%tun0,Link-local IPv6 address derived from the network interface tun0
-fe80::1,This is a link-local address used on a local network.
-fe80::cd8:95bf:afbb:9622%eth0,IPv6 link-local address with interface specified
-FE80:0000:0000:0000:0202:B3FF:FE1E:8329,Link-local address in IPv6
-FE80:0000:0000:0000:0202:B3FF:FE1E:8329%eth0,Link-local IPv6 address derived from the network interface eth0
-fe80:dead:beef:cafe:face:feed:f12d:bedd%2,One more example of a link-local unicast address
-fec0:0:0:1::1,Site-local IPv6 address
-FEDC:BA98:7654:3210:FEDC:BA98:7654:3210,Valid hexadecimal values in IPv6 address
-FF01::101,a multicast address
-FF01:0:0:0:0:0:0:1,Another valid multicast address
-FF01:0:0:0:0:0:0:101,a multicast address
-FF01:0:0:0:0:0:0:101,Valid multicast address
-ff02::1,This is a multicast address used on a local network.
-ff02:0:0:0:0:0:0:1,All nodes on network multicast address
-ff02:0:0:0:0:0:0:a,Multicast address
-ff05:15:25:df:20:4a:b4:24,Multicast address for Network Time Protocol (NTP) traffic
-ff08:0:0:0:0:0:0:fc,Multicast address for the OSPFIGP routing protocol
+Address,Status,Type/Role,Block Owner
+::,Valid,Unspecified,RFC4291
+::1,Valid,Loopback,RFC4291
+::ffff:192.0.2.128,Valid,IPv4-mapped IPv6,RFC4291
+0:0:0:0:0:0:0:1,Valid,Loopback,RFC4291
+1050:0:0:0:5:600:300c:1,Valid,Global Unicast,RFC2373
+2001::1,Valid,Global Unicast,RFC4291
+2001:0:9D38:953C:10EF:EE22:FFDD:AABB,Valid,Global Unicast,RFC3587
+2001:0DA8:0200:0012:0000:00B8:0000:02AA,Valid,Global Unicast,RFC4291
+2001:0db8::1,Valid,Documentation,RFC3849
+2001:0db8::1:0:0:1,Valid,Documentation,RFC4291
+2001:0DB8::4152:EBAF:CE01:0001,Valid,Global Unicast,RFC4291
+2001:0db8:0:0:1:0:0:1,Valid,Documentation,RFC4291
+2001:0DB8:0000:CD30:0000:0000:0000:0000,Valid,Global Unicast,RFC4291
+2001:0DB8:1234:5678:ABCD:EF01:2345:6789,Valid,Global Unicast,RFC4291
+2001:0db8:85a3:0000:0000:8a2e:0370:7334,Valid,Global Unicast,RFC2373
+2001:0db8:85a3:08d3:1319:8a2e:0370:7344,Valid,Global Unicast,RFC2373
+2001:0DB8:aaaa:0007:0000:0000:0000:0001,Valid,Global Unicast,RFC2373
+2001:2::10,Valid,Global Unicast,RFC4291
+2001:44b8:4126:f600:91bd:970c:9073:12df,Valid,Global Unicast,RIPE NCC (Europe) [RFC 4193]
+2001:4860:4860::8888,Valid,Global Unicast,Google, Inc. [RFC 7607]
+2001:500:2d::d,Valid,Anycast,IANA [RFC 7526]
+2001:558:fc03:11:5e63:3eff:fe67:edf9,Valid,Global Unicast,Akamai Technologies, Inc.
+2001:acad:abad:1::bc,Valid,Unique Local Unicast,Private-Use [RFC 4193]
+2001:b50:ffd3:76:ce58:32ff:fe00:e7,Valid,Global Unicast,Sprint [RFC 3627]
+2001:db8::0:1:0:0:1,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8::1,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8::1:0:0:1,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8::212:7403:ace0:1,Valid,Documentation,Private-Use [RFC 3849]
+2001:DB8::4:5:6:7,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8::5,Valid,Documentation,Private-Use [RFC 3849]
+2001:DB8::8:800:200C:417A,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8::aaaa:0:0:1,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8:0::1,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8:0:0::1,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8:0:0:0::1,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8:0:0:1::1,Valid,Documentation,Private-Use [RFC 3849]
+2001:DB8:0:0:1::1,Valid,Documentation,Private-Use [RFC 3849]
+2001:db8:0:0:1:0:0:1,Valid,Documentation,Private-Use [RFC 3849]
+2001:DB8:0:0:8:800:200C:417A,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:0:0:aaaa::1,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:0000:0:1::1,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:3c4d:15::1,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:DB8:85A3::8A2E:370:7334,Valid,Unicast address,RFC 2373, assigned for documentation
+2001:db8:aaaa:bbbb:cccc:dddd::1,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:aaaa:bbbb:cccc:dddd:0:1,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:0001,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:001,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:01,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:1,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:aaaa,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:AAAA,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:AaAa,Valid,Unicast address,RFC 5952, reserved for documentation
+2001:db8:d03:bd70:fede:5c4d:8969:12c4,Valid,Unicast address,RFC 4291, IANA and reserved documentation
+2002::8364:7777,Valid,6to4 address,RFC 3056, allocated to 6to4
+2002:4559:1FE2::4559:1FE2,Valid,6to4 address,RFC 3056, allocated to 6to4
+2002:C000:203:200::,Valid,6to4 address,RFC 3056, allocated to 6to4
+2002:cb0a:3cdd:1:1:1:1:1,Valid,6to4 Relay anycast address,RFC 6343
+2400:8902::f03c:92ff:feb5:f66d,Valid,Unicast address,RFC 7343, APNIC organization
+2400:c980:0:e206:b07d:8cf9:2b05:fb06,Valid,Unicast,APNIC
+2400:cb00:2048:1::6814:507,Valid,Anycast,RIPE NCC
+2404:6800:4009:805::2004,Valid,Unicast,Google
+2607:f8b0:4005:80b::200e,Valid,Unicast,Google
+2607:f8b0:400a:809::200e,Valid,Unicast,Google
+2620:0:1cfe:face:b00c::3,Valid,Unicast,ARIN
+2620:0:2d0:200::7,Valid,Unicast,ARIN
+3fff:ffff:3:1:0:0:0:7,Valid,Unicast,IANA
+ABCD:EF01:2345:6789:ABCD:EF01:2345:6789,Valid,Unicast,RFC 4291
+abcd:ef01:2345:6789:abcd:ef01:2345:6789%1,Valid,Unicast,RFC 4007
+fc00::,Valid,Unicast,RFC 4193
+fd3b:d101:e37f:9713::1,Valid,Unicast,Unique Local
+fd44:a77b:40ca:db17:37df:f4c4:f38a:fc81,Valid,Unicast,ISP
+FD92:7065:891e:8c71:d2e7:d3f3:f595:d7d8%tun0,Valid,Unicast,RFC 5952
+fe80::,Valid,Link-Local,RFC 4291
+fe80::cd8:95bf:afbb:9622%eth0,Valid,Link-Local,RFC 4007
+FE80:0000:0000:0000:0202:B3FF:FE1E:8329,Valid,Link-Local,RFC 2373
+FE80:0000:0000:0000:0202:B3FF:FE1E:8329%eth0,Valid,Link-Local,RFC 4007
+fe80:dead:beef:cafe:face:feed:f12d:bedd%2,Valid,Link-Local,RFC 4007
+fec0:0:0:1::1,Deprecated,Site-Local Unicast,RFC 3879, RFC 4193 (deprecated by RFC 4291)
+FEDC:BA98:7654:3210:FEDC:BA98:7654:3210,Valid,Global Unicast,IANA
+FF01::101,Valid,Multicast (Reserved),RFC4291 Section 2.7
+FF01:0:0:0:0:0:0:1,Valid,Multicast (Reserved),RFC4291 Section 2.7
+FF01:0:0:0:0:0:0:101,Valid,Multicast (Reserved),RFC4291 Section 2.7
+FF02::1,Valid,Link-Local Multicast,IANA RFC4291 Section 2.7
+FF02:0:0:0:0:0:0:1,Valid,Link-Local Multicast,IANA RFC4291 Section 2.7
+FF02:0:0:0:0:0:0:a,Valid,Link-Local Multicast,IANA RFC7346 Section 2.1
+FF05:15:25:df:20:4a:b4:24,Valid,Link-Local Multicast,IANA RFC4291 Section 2.7
+FF08:0:0:0:0:0:0:fc,Valid,Reserved for future use (Reserved),IANA RFC4291 Section 2.8
