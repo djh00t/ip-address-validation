@@ -62,3 +62,4 @@ fe80::/130,Invalid,RFC4291 - /130 is not allowed in IPv6 address space and IPv6 
 fe80::/130,Invalid,RFC4291 - IPv6 address only request should not match CIDR notation.
 fe80::7::8,Invalid,"RFC2373 - Too many colons, only one set of ""::"" may exist and no more than 2 colons may exist consecutively in a valid address."
 fe80::7::8,Invalid,"RFC2373 - Too many colons, only one set of ""::"" may exist and no more than 2 colons may exist consecutively in a valid address."
+2001:0DB8:0:CD3,Invalid,"RFC4291 Section 2.2 specifies that an IPv6 address should be written as eight groups of four hexadecimal digits, separated by colons. Too Few Groups."
