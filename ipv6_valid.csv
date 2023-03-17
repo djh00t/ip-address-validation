@@ -20,7 +20,7 @@ Address,Status,Type/Role,Block Owner
 2001:44b8:4126:f600:91bd:970c:9073:12df,Valid,Global Unicast,RIPE NCC (Europe) [RFC 4193]
 2001:4860:4860::8888,Valid,Global Unicast,"Google, Inc. [RFC 7607]"
 2001:500:2d::d,Valid,Anycast,IANA [RFC 7526]
-2001:558:fc03:11:5e63:3eff:fe67:edf9,Valid,Global Unicast,Akamai Technologies, Inc.
+2001:558:fc03:11:5e63:3eff:fe67:edf9,Valid,Global Unicast,Akamai Technologies
 2001:acad:abad:1::bc,Valid,Unique Local Unicast,Private-Use [RFC 4193]
 2001:b50:ffd3:76:ce58:32ff:fe00:e7,Valid,Global Unicast,Sprint [RFC 3627]
 2001:db8::0:1:0:0:1,Valid,Documentation,Private-Use [RFC 3849]
@@ -37,26 +37,26 @@ Address,Status,Type/Role,Block Owner
 2001:db8:0:0:1::1,Valid,Documentation,Private-Use [RFC 3849]
 2001:DB8:0:0:1::1,Valid,Documentation,Private-Use [RFC 3849]
 2001:db8:0:0:1:0:0:1,Valid,Documentation,Private-Use [RFC 3849]
-2001:DB8:0:0:8:800:200C:417A,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:0:0:aaaa::1,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:0000:0:1::1,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:3c4d:15::1,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:DB8:85A3::8A2E:370:7334,Valid,Unicast address,RFC 2373, assigned for documentation
-2001:db8:aaaa:bbbb:cccc:dddd::1,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:aaaa:bbbb:cccc:dddd:0:1,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:0001,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:001,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:01,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:1,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:aaaa,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:AAAA,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:aaaa:bbbb:cccc:dddd:eeee:AaAa,Valid,Unicast address,RFC 5952, reserved for documentation
-2001:db8:d03:bd70:fede:5c4d:8969:12c4,Valid,Unicast address,RFC 4291, IANA and reserved documentation
-2002::8364:7777,Valid,6to4 address,RFC 3056, allocated to 6to4
-2002:4559:1FE2::4559:1FE2,Valid,6to4 address,RFC 3056, allocated to 6to4
-2002:C000:203:200::,Valid,6to4 address,RFC 3056, allocated to 6to4
-2002:cb0a:3cdd:1:1:1:1:1,Valid,6to4 Relay anycast address,RFC 6343
-2400:8902::f03c:92ff:feb5:f66d,Valid,Unicast address,RFC 7343, APNIC organization
+2001:DB8:0:0:8:800:200C:417A,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:0:0:aaaa::1,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:0000:0:1::1,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:3c4d:15::1,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:DB8:85A3::8A2E:370:7334,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd::1,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd:0:1,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:0001,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:001,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:01,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:1,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:aaaa,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:AAAA,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:aaaa:bbbb:cccc:dddd:eeee:AaAa,Valid,Unicast address,Reserved for Documentation [RFC 5952]
+2001:db8:d03:bd70:fede:5c4d:8969:12c4,Valid,Unicast address,Reserved for Documentation [RFC 4291]
+2002::8364:7777,Valid,6to4 address,Allocated to 6to4 [RFC 3056]
+2002:4559:1FE2::4559:1FE2,Valid,6to4 address,Allocated to 6to4 [RFC 3056]
+2002:C000:203:200::,Valid,6to4 address,Allocated to 6to4 [RFC 3056]
+2002:cb0a:3cdd:1:1:1:1:1,Valid,6to4 Relay anycast address,Allocated to 6to4 Anycast Relays [RFC 6343]
+2400:8902::f03c:92ff:feb5:f66d,Valid,Unicast address,APNIC
 2400:c980:0:e206:b07d:8cf9:2b05:fb06,Valid,Unicast,APNIC
 2400:cb00:2048:1::6814:507,Valid,Anycast,RIPE NCC
 2404:6800:4009:805::2004,Valid,Unicast,Google
@@ -76,7 +76,7 @@ fe80::cd8:95bf:afbb:9622%eth0,Valid,Link-Local,RFC 4007
 FE80:0000:0000:0000:0202:B3FF:FE1E:8329,Valid,Link-Local,RFC 2373
 FE80:0000:0000:0000:0202:B3FF:FE1E:8329%eth0,Valid,Link-Local,RFC 4007
 fe80:dead:beef:cafe:face:feed:f12d:bedd%2,Valid,Link-Local,RFC 4007
-fec0:0:0:1::1,Deprecated,Site-Local Unicast,RFC 3879, RFC 4193 (deprecated by RFC 4291)
+fec0:0:0:1::1,Deprecated,Site-Local Unicast,RFC 3879/ RFC 4193 (deprecated by RFC 4291)
 FEDC:BA98:7654:3210:FEDC:BA98:7654:3210,Valid,Global Unicast,IANA
 FF01::101,Valid,Multicast (Reserved),RFC4291 Section 2.7
 FF01:0:0:0:0:0:0:1,Valid,Multicast (Reserved),RFC4291 Section 2.7
