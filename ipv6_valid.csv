@@ -66,16 +66,16 @@ Address,Status,Type/Role,Block Owner
 2620:0:2d0:200::7,Valid,Unicast,ARIN
 3fff:ffff:3:1:0:0:0:7,Valid,Unicast,IANA
 ABCD:EF01:2345:6789:ABCD:EF01:2345:6789,Valid,Unicast,RFC 4291
-abcd:ef01:2345:6789:abcd:ef01:2345:6789%1,Valid,Unicast,RFC 4007
+### abcd:ef01:2345:6789:abcd:ef01:2345:6789%1,TBC,Unicast,RFC 4007 Section 11 - Unsure if global address can be used
 fc00::,Valid,Unicast,RFC 4193
 fd3b:d101:e37f:9713::1,Valid,Unicast,Unique Local
 fd44:a77b:40ca:db17:37df:f4c4:f38a:fc81,Valid,Unicast,ISP
-FD92:7065:891e:8c71:d2e7:d3f3:f595:d7d8%tun0,Valid,Unicast,RFC 5952
+FD92:7065:891e:8c71:d2e7:d3f3:f595:d7d8%tun0,Valid,Unicast,RFC 4007 Section 11
 fe80::,Valid,Link-Local,RFC 4291
 fe80::cd8:95bf:afbb:9622%eth0,Valid,Link-Local,RFC 4007
 FE80:0000:0000:0000:0202:B3FF:FE1E:8329,Valid,Link-Local,RFC 2373
-FE80:0000:0000:0000:0202:B3FF:FE1E:8329%eth0,Valid,Link-Local,RFC 4007
-fe80:dead:beef:cafe:face:feed:f12d:bedd%2,Valid,Link-Local,RFC 4007
+FE80:0000:0000:0000:0202:B3FF:FE1E:8329%eth0,Valid,Link-Local,RFC 4007 Section 11
+fe80:dead:beef:cafe:face:feed:f12d:bedd%2,Valid,Link-Local,RFC 4007 Section 11
 fec0:0:0:1::1,Deprecated,Site-Local Unicast,RFC 3879/ RFC 4193 (deprecated by RFC 4291)
 FEDC:BA98:7654:3210:FEDC:BA98:7654:3210,Valid,Global Unicast,IANA
 FF01::101,Valid,Multicast (Reserved),RFC4291 Section 2.7
